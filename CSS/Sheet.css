@@ -1,0 +1,171 @@
+/* Sheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+   
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.Menu-Bar {
+    background: #DDD5F3;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Logo{
+    padding-left: 30px;
+}
+
+Nav {
+    flex: 1;
+    text-align: right;
+}
+
+Nav Ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+Nav Ul Li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Dropdown-Brand {
+    position: relative;
+    display: inline-block;
+}
+
+.Brand-Content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(230, 17, 17, 0.2);
+    z-index: 1;
+}
+
+.Brand-Content a {
+    color: black;
+    padding: 6px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+.Brand-Content a:hover {
+    background-color: cyan;
+}
+
+.Dropdown-Brand:hover .Brand-Content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #8e44ad;
+}
+
+p {
+    color: #555;
+}
+
+/* Search */
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.box-search {
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    border-radius:32px;
+}
+
+/* Welcome */
+
+.Subsection {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Content-1 {
+    flex-basis: 25%;
+    margin-top: -50px;
+}
+
+.Content-1 img {
+    padding: 50px 0;
+    width: 1000px;
+    height: 1000px;
+}
+
+.Content-1 h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.Button-1 {
+    display: inline-block;
+    background: #D82C07;
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.Button-1:hover {
+    background-color: #921010;
+}
+
+.Header .Subsection {
+    margin-top: 70px;
+}
+
+/* Featured Categories */
+
+.Categories {
+    margin: 50px 0;
+}
+
+.Content-2 {
+    flex-basis: 23%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.Content-2 img {
+    width: 100%;
+}
+
+.Small-Contain {
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+}
+
+.Content-3 {
+    margin-top: 20px;
+    margin-right : 850px;
+}
+.Content-3 img {
+    height: 300px;
+    width: 500px;
+}

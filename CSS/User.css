@@ -1,0 +1,139 @@
+/* User */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 400px) {
+    .Header { height: 400px; width: 400px; }
+    .Menu-Bar { margin-left: 20px; }
+}
+
+@media (max-width: 800px) {
+    .Header { height: 800px; width: 800px; }
+}
+
+.Header {
+    background: #DDD5F3;  
+    max-width: 100%;
+}
+
+.Header:fullscreen {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Menu-Bar {
+    background: #DDD5F3;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+Nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+Nav Ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+Nav Ul Li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Dropdown-Brand {
+    position: relative;
+    display: inline-block;
+}
+
+.Brand-Content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Brand-Content a {
+    color: black;
+    padding: 6px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+.Brand-Content a:hover {
+    background-color: cyan;
+}
+
+.Dropdown-Brand:hover .Brand-Content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #8e44ad;
+}
+
+p {
+    color: #555;
+}
+.Logo{
+    padding-left: 30px;
+}
+
+
+/* Layout */
+
+.Layout {
+    background: #efebf9;  
+    min-height: 900px;
+}
+
+.Profile-Component {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Code {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+.box-input {
+    text-align: center;
+    padding: 8px;
+    border: none;
+    width: 20%
+}
+
+.button {
+    background-color:#8e44ad;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}

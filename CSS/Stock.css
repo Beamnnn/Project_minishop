@@ -1,0 +1,131 @@
+/* Stock */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    max-width: 1920px;
+    max-height: 1080px;
+    padding-bottom: 356px;
+}
+
+.Container {
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+    background: #DDD5F3;
+}
+
+.Menu-Bar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Logo{
+    padding-left: 5px;
+}
+
+Nav {
+    flex: 1;
+    text-align: right;
+}
+
+Nav Ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+Nav Ul Li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Dropdown-Brand {
+    position: relative;
+    display: inline-block;
+}
+
+.Brand-Content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Brand-Content a {
+    color: black;
+    padding: 6px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+.Brand-Content a:hover {
+    background-color: cyan;
+}
+
+.Dropdown-Brand:hover .Brand-Content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #8e44ad;
+}
+
+p {
+    color: #555;
+    font-size: 20px;
+}
+
+.Contain {
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.Stock-Left {
+    border-radius: 20px;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.Stock-Left img {
+    width: 650px;
+    height: 450px;
+}
+
+.Stock-Right {
+    border-radius: 20px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+.Price {
+    text-align: left;
+}
+
+.Size {
+    font-size: 20px;
+}
+
+.Num {
+    font-size: 20px;
+}
+
+.Detail {
+    font-size: 20px;
+}

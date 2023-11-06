@@ -1,0 +1,146 @@
+/* News */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 400px) {
+    .Header { height: 400px; width: 400px; }
+    .Menu-Bar { margin-left: 20px; }
+}
+
+@media (max-width: 800px) {
+    .Header { height: 800px; width: 800px; }
+}
+
+.Header {
+    min-height: 900px;  
+}
+
+.Logo{
+    padding-left: 30px;
+}
+
+.Menu-Bar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    background: #DDD5F3;
+}
+
+.Layout{
+    color: #8e44ad;
+}
+
+.Layout .show{
+    color: #8e44ad;
+    background-color: #DDD5F3;
+    border: 1px solid #DDD5F3;
+}
+
+Nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+Nav Ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+Nav Ul Li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Dropdown-Brand {
+    position: relative;
+    display: inline-block;
+}
+
+.Brand-Content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Brand-Content a {
+    color: black;
+    padding: 6px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+a:active {
+    background-color: cyan;
+}
+
+.Dropdown-Brand:hover .Brand-Content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #8e44ad;
+}
+
+p {
+    color: #555;
+}
+
+.Header .Subsection {
+    margin-top: 70px;
+}
+
+/* News */
+
+@media (max-width: 800px) {
+    .Header { height: 745px; }
+}
+
+.Header {
+    height: 745px;
+}
+
+.News {
+    text-align: center;
+}
+
+.Contain {
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.Left {
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.Right {
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    width: 50%;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+p::after {
+    font-size: 3px;
+}
+
+.Layout {
+    min-height: 900px;
+}

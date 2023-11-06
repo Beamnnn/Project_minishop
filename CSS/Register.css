@@ -1,0 +1,82 @@
+/* Register */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #efebf9;
+}
+
+h1 {
+  color: #8e44ad;
+  font-family: "Oswald" , sans-serif;
+  margin: 20px 0;
+  text-align: center;
+}
+
+p {
+  padding-top: 20px;
+  width: 120px;
+}
+
+.registartion-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  color: #8e44ad;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #DDD5F3;
+  padding: 50px;
+  margin: 50px;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  width: 350px;
+}
+
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgb(228, 228, 228), 0 0 10px rgb(224, 224, 224);
+}
+
+.registartion-form .submit {
+  width: 100%;
+  padding: 8px ; /*0*/
+  font-size: 20px;
+  font-weight: 600;
+  color: #8e44ad;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.registartion-form .submit:hover {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+a.form-control {
+  padding-left: 20px;
+  color: rgb(230, 209, 27);
+}
+
+.alert-danger {
+  padding-bottom: 400px;
+}
